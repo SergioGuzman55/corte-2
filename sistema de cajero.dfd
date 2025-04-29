@@ -1,0 +1,375 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+a
+7
+1000000
+1
+b
+5
+50000
+1
+c
+6
+300000
+8
+1
+1
+i
+1
+1
+0
+1
+1
+4
+1
+1
+1
+4
+1
+18
+'que usuario eres'
+5
+1
+7
+usuario
+4
+1
+85
+'Sr usuario desea retirar dinero, consignar o transferir dinero entre las 3 cuentas?'
+5
+1
+1
+n
+7
+0
+1
+17
+usuario=1 and n=1
+13
+4
+1
+21
+'su saldo es de: ', a
+4
+1
+22
+'cuanto desea retirar'
+5
+1
+7
+retirar
+6
+1
+1
+a
+9
+a-retirar
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=1 and n=2
+13
+4
+1
+21
+'su saldo es de: ', a
+4
+1
+22
+'cuanto desea retirar'
+5
+1
+9
+consignar
+6
+1
+1
+a
+11
+a+consignar
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=1 and n=3
+13
+4
+1
+21
+'su saldo es de: ', a
+4
+1
+47
+'cuanto desea transferir y a que cuenta 2 o 3 '
+5
+1
+13
+transferir, d
+7
+0
+1
+3
+d=2
+6
+2
+1
+c
+12
+c+transferir
+1
+a
+12
+a-transferir
+13
+6
+2
+1
+b
+12
+b+transferir
+1
+a
+12
+a-transferir
+13
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=2 and n=1
+13
+4
+1
+21
+'su saldo es de: ', b
+4
+1
+22
+'cuanto desea retirar'
+5
+1
+7
+retirar
+6
+1
+1
+b
+9
+b-retirar
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=2 and n=2
+13
+4
+1
+21
+'su saldo es de: ', b
+4
+1
+22
+'cuanto desea retirar'
+5
+1
+9
+consignar
+6
+1
+1
+b
+11
+b+consignar
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=2 and n=3
+13
+4
+1
+21
+'su saldo es de: ', b
+4
+1
+47
+'cuanto desea transferir y a que cuenta 1 o 3 '
+5
+1
+13
+transferir, d
+7
+0
+1
+3
+d=1
+6
+2
+1
+c
+12
+c+transferir
+1
+b
+12
+b-transferir
+13
+6
+2
+1
+a
+12
+a+transferir
+1
+b
+12
+b-transferir
+13
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=3 and n=1
+13
+4
+1
+21
+'su saldo es de: ', c
+4
+1
+22
+'cuanto desea retirar'
+5
+1
+7
+retirar
+6
+1
+1
+c
+9
+c-retirar
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=3 and n=2
+13
+4
+1
+21
+'su saldo es de: ', c
+4
+1
+22
+'cuanto desea retirar'
+5
+1
+9
+consignar
+6
+1
+1
+c
+11
+c+consignar
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+7
+0
+1
+17
+usuario=3 and n=3
+13
+4
+1
+21
+'su saldo es de: ', c
+4
+1
+47
+'cuanto desea transferir y a que cuenta 1 o 2 '
+5
+1
+13
+transferir, d
+7
+0
+1
+3
+d=1
+6
+2
+1
+b
+12
+b+transferir
+1
+c
+12
+c-transferir
+13
+6
+2
+1
+a
+12
+a+transferir
+1
+c
+12
+c-transferir
+13
+4
+1
+86
+'leo su  saldo es de: ', a,'juana su  saldo es de: ',  b, 'pedro su  saldo es de: ', c
+13
+10
+1
